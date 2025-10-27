@@ -1,0 +1,98 @@
+{
+  "Test1_4D_NSM": {
+    "MSE": 0.09213418580141731,
+    "Variance": 0.9916803467757175,
+    "NSM": 0.06569526941932813,
+    "Shannon_Limit": 0.05854983152431917,
+    "Gap_%": 12.204028105599317,
+    "Target_Hit": "YES"
+  },
+  "Whiteness_Whiteness": {
+    "Whiteness_Ratio": 0.08780082868514322,
+    "Isotropy_Ratio": 1.203867147609314,
+    "Skewness": 0.1654456244527775,
+    "Kurtosis": 1.537806344669501,
+    "Is_White": "True",
+    "Is_Isotropic": "True"
+  },
+  "Recall@K": {
+    "Recall@1": {
+      "Average": 0.08,
+      "Min": 0.0,
+      "Max": 1.0,
+      "Std": 0.2712931993250107
+    },
+    "Recall@5": {
+      "Average": 0.26,
+      "Min": 0.0,
+      "Max": 0.8,
+      "Std": 0.20297783130184435
+    },
+    "Recall@10": {
+      "Average": 0.33399999999999996,
+      "Min": 0.0,
+      "Max": 0.8,
+      "Std": 0.1550612782096162
+    }
+  },
+  "Latency_Throughput": {
+    "100_vectors": {
+      "Time_s": 0.003308534622192383,
+      "Throughput_vectors_per_s": 30224.861281256755,
+      "Latency_microseconds_per_vector": 33.08534622192383
+    },
+    "1000_vectors": {
+      "Time_s": 0.024507999420166016,
+      "Throughput_vectors_per_s": 40803.0040663852,
+      "Latency_microseconds_per_vector": 24.507999420166016
+    },
+    "10000_vectors": {
+      "Time_s": 0.2253098487854004,
+      "Throughput_vectors_per_s": 44383.3239155233,
+      "Latency_microseconds_per_vector": 22.53098487854004
+    }
+  },
+  "Compression": {
+    "Original_Bytes": 3200,
+    "Quantized_Bytes": 200,
+    "Compression_Ratio": 16.0,
+    "Size_Reduction_%": 93.75
+  },
+  "Convergence": [
+    {
+      "Iteration": 0,
+      "Change": 31.07395052288748,
+      "Distortion": 0.36853674320566926
+    },
+    {
+      "Iteration": 1,
+      "Change": 16.317787815639477,
+      "Distortion": 0.1627812894894472
+    },
+    {
+      "Iteration": 2,
+      "Change": 5.543062546146126,
+      "Distortion": 0.11923151599343432
+    },
+    {
+      "Iteration": 3,
+      "Change": 1.1888779020723772,
+      "Distortion": 0.10755497994511479
+    },
+    {
+      "Iteration": 4,
+      "Change": 0.5437037287150384,
+      "Distortion": 0.10464590427466462
+    },
+    {
+      "Iteration": 5,
+      "Change": 0.2111567635217294,
+      "Distortion": 0.1039782642399208
+    },
+    {
+      "Iteration": 6,
+      "Change": 0.0,
+      "Distortion": 0.10387560017549075
+    }
+  ]
+}
