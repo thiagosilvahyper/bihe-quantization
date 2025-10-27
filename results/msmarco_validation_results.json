@@ -1,0 +1,20 @@
+{
+  "dataset": "MS MARCO",
+  "file": "data\\mcmarco\\path_to_predictions.json",
+  "timestamp": "2025-10-27",
+  "text_statistics": {
+    "total_texts": 5993,
+    "avg_length": 19.042215918571667,
+    "max_length": 142,
+    "min_length": 1,
+    "avg_words": 2.9110629067245117,
+    "max_words": 24,
+    "min_words": 1
+  },
+  "embedding_info": {
+    "total_samples": 5993,
+    "embedding_dim": 384,
+    "model": "all-MiniLM-L6-v2",
+    "dtype": "float32"
+  }
+}
